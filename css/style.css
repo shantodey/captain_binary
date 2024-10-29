@@ -3,12 +3,14 @@
     padding: 0;
 }
 body {
-	scroll-behavior: smooth;
-    overflow-x: hidden ;
-    background-image: url(/Images/gradient-desktop-b03ebaa2.webp);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #2A1A45, #0D1227);
     background-size: cover;
-   
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 a{
     list-style: none;
