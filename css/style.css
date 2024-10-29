@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	scroll-behavior: smooth;
+    overflow-x: hidden ;
+    background-image: url(/Images/gradient-desktop-b03ebaa2.webp);
+    background-size: cover;
+   
+}
+
+a{
+    list-style: none;
+    text-decoration: none !important;
+    
+}
+ul{
+    list-style: none !important;
+
+}
+img{
+    vertical-align: middlesS;
+    max-width: 100%;
+}
+
+
+
+
+
+.nave_menu{
+    position: fixed !important;
+    width: 100%;
+    z-index: 22;
+}
+.navbar-brand img{
+    height: 55px;
+}
+.nav-link{
+    color: white !important;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.active{
+    color: #344767 !important;
+}
+
+
+
+
+
+
+#hero{
+    padding-top: 60px;
+}
+.hero__section  {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100%;         
+    text-align: center;     
+}
+
+.hero__text p{
+    font-family: "Hind Siliguri", sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.hero__button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border:2px solid #5e72e4;
+    box-shadow: 0 0 12px #9b6cff4d !important;
+}
+
+
+
+
+#count{
+    padding-top: 60px;
+}
+.count__head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 3px #905dfd80 !important;
+    transition: box-shadow ease-in-out .25s;
+}
+.count__head:hover{
+    cursor: pointer;
+    box-shadow: 0 0 12px #9b6cff4d !important;
+}
+
+.count__text samp{
+    font-size: 40px;
+    color: #5e72e4;
+    margin-bottom: 0px !important;
+}
+.count__text p{
+    color: white;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 14px;
+}
+.count__img{
+    height: 48px;
+    width: 48px;
+}
+
+
+
+
+#card{
+    padding-top: 60px;
+}
+
+.card__head h3{
+    color: #825ee4;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 30px;
+}
+.card__head p{
+    color: white;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 100;
+    opacity: 30%;
+    font-size: 15px;
+}
+.card{
+    background-color: #11152c !important;
+    box-shadow: 0 0 3px #905dfd80 !important;
+    -webkit-transition: box-shadow ease-in-out .25s;
+    transition: box-shadow ease-in-out .25s;
+}
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 12px #9b6cff4d !important;
+    -webkit-transition: box-shadow ease-in-out .25s;
+    transition: box-shadow ease-in-out .25s;
+}
+.card-body{
+    padding-top: 30px !important;
+}
+.card-title{
+    color: #825ee4 !important;
+    font-size: 23px;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+}
+.card-text{
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+#edotor{
+    padding-top: 60px;
+}
+.edotor__img{
+    box-shadow: 0 0 12px #9b6cff4d !important;
+}
+.edotor__text p{
+    font-family: "Hind Siliguri", sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+
+#contact__us{
+    padding-top: 60px;
+}
+.contact__us__form{
+    box-shadow: 0 0 12px #9b6cff4d !important;
+}
+.form-control{
+    background-color: #0d1224 !important;
+    font-family: "Hind Siliguri", sans-serif;
+    border: 2px solid #344767 !important;
+    color: white !important;
+}
+.form-label{
+    font-size: 25px;
+    font-family: "Hind Siliguri", sans-serif;
+    color: white !important;
+}
+
+
+
+
+.contact__us__img{
+    display: flex;
+    justify-content: center;
+}
+.contact__us__text samp{
+    font-size: 25px;
+    color: #5e72e4;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px !important;
+}
+.contact__us__text p{
+    color: white;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+#footer{
+    margin-top: 100px;
+    background-color: #11152c;
+}
+.footer__head{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer__icon{
+    font-size: 30px;
+    color: white;
+}
+.footer__text a{
+    color: #5e72e4;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 200px;
+    font-size: 14px;
+}
+.footer__text p{
+    color: white;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 200px;
+    font-size: 14px;
+}
+.form-control::placeholder{
+    color: white !important;
+    opacity:40% !important;
+}
